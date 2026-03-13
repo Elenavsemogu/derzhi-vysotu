@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Держи Высоту — Предложения по логотипу</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--lime:#b5cc18;--lime2:#c8db35;--dark:#1a1a1a;--gray:#666;--light:#f5f5f3}
+body{font-family:'Nunito',sans-serif;background:var(--light);color:var(--dark)}
+
+.header{text-align:center;padding:48px 24px 16px}
+.header h1{font-size:28px;font-weight:900}
+.header p{font-size:14px;color:var(--gray);max-width:600px;margin:8px auto 0;line-height:1.7}
+
+.current{
+    max-width:480px;margin:32px auto 60px;background:#fff;border-radius:16px;
+    padding:32px;text-align:center;border:2px dashed rgba(0,0,0,.08);
+}
+.current img{width:120px;margin:0 auto 16px;border-radius:12px}
+.current h3{font-size:16px;font-weight:800;margin-bottom:8px}
+.current .issues{text-align:left;font-size:13px;color:var(--gray);line-height:1.8}
+.current .issues li{margin-bottom:4px}
+.tag{display:inline-block;background:rgba(181,204,24,.15);color:var(--lime);font-weight:700;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:4px 12px;border-radius:50px;margin-bottom:6px}
+.tag.red{background:rgba(220,50,50,.1);color:#c33}
+
+.proposals{display:flex;flex-direction:column;gap:60px;max-width:900px;margin:0 auto;padding:0 24px 80px}
+
+.proposal{
+    background:#fff;border-radius:20px;padding:40px;
+    display:grid;grid-template-columns:240px 1fr;gap:36px;align-items:center;
+}
+@media(max-width:700px){.proposal{grid-template-columns:1fr;text-align:center}}
+
+.proposal-num{font-size:12px;font-weight:800;color:var(--lime);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.proposal h3{font-size:22px;font-weight:900;margin-bottom:8px}
+.proposal .desc{font-size:14px;color:var(--gray);line-height:1.7;margin-bottom:16px}
+.proposal .tags{display:flex;gap:6px;flex-wrap:wrap}
+@media(max-width:700px){.proposal .tags{justify-content:center}}
+
+.logo-prev{
+    width:200px;height:200px;border-radius:20px;
+    display:flex;align-items:center;justify-content:center;
+    margin:0 auto;position:relative;overflow:hidden;
+}
+
+/* ── Concept A: Simplified Flat ── */
+.ca{background:var(--lime)}
+.ca svg{width:120px;height:120px}
+
+/* ── Concept B: Child climbing ── */
+.cb{background:linear-gradient(135deg,var(--lime) 0%,#8fb800 100%)}
+.cb svg{width:130px;height:130px}
+
+/* ── Concept C: Mountain + hand minimal ── */
+.cc{background:var(--dark)}
+.cc svg{width:110px;height:110px}
+
+/* ── Concept D: Rounded badge ── */
+.cd{background:#fff;border:3px solid var(--lime)}
+.cd svg{width:140px;height:140px}
+
+/* ── Concept E: Text-only ── */
+.ce{background:var(--dark);border-radius:20px;flex-direction:column;gap:4px}
+.ce .mark{font-size:36px;font-weight:900;color:var(--lime);letter-spacing:-1px;line-height:1}
+.ce .sub{font-size:10px;font-weight:700;color:rgba(255,255,255,.5);letter-spacing:3px;text-transform:uppercase}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Предложения по логотипу</h1>
+    <p>5 концепций на основе текущего лого. Задача: осовременить, добавить детскую ассоциацию, сохранить лаймовый цвет и характер.</p>
+</div>
+
+<div class="current">
+    <img src="logo-original.png" alt="Текущий логотип">
+    <h3>Текущий логотип</h3>
+    <div class="tag red">Анализ проблем</div>
+    <ul class="issues">
+        <li>Жест «коза» считывается как рок-музыка, а не скалолазание</li>
+        <li>Чёрный контур утяжеляет — не ассоциируется с детьми</li>
+        <li>Сложно масштабировать: мелкие детали теряются при уменьшении</li>
+        <li>Нет явной связи с детским скалолазанием</li>
+        <li>Стиль иллюстрации устарел (жирный outline из 2010-х)</li>
+    </ul>
+</div>
+
+<div class="proposals">
+
+    <!-- A: Simplified flat -->
+    <div class="proposal">
+        <div class="logo-prev ca">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 85 L25 55 Q20 48 28 42 L42 32 Q46 29 50 32 Q54 29 58 32 L72 42 Q80 48 75 55 Z" fill="white" opacity=".9"/>
+                <circle cx="42" cy="38" r="6" fill="white" opacity=".7"/>
+                <path d="M42 44 L42 58 M38 50 L42 44 L46 50" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <circle cx="58" cy="34" r="5" fill="white" opacity=".7"/>
+                <path d="M58 39 L58 50 M55 44 L58 39 L61 44" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+        </div>
+        <div>
+            <div class="proposal-num">Концепт A</div>
+            <h3>Гора + дети</h3>
+            <div class="desc">Минималистичная гора с двумя фигурками — ребёнок и взрослый поднимаются вместе. Плоский стиль, отлично масштабируется. Моментально считывается: скалолазание, семья, рост.</div>
+            <div class="tags">
+                <span class="tag">Детская ассоциация</span>
+                <span class="tag">Масштабируемость</span>
+                <span class="tag">Современный</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- B: Child reaching up -->
+    <div class="proposal">
+        <div class="logo-prev cb">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="60" y="20" width="8" height="60" rx="3" fill="white" opacity=".25"/>
+                <rect x="70" y="35" width="6" height="40" rx="3" fill="white" opacity=".15"/>
+                <circle cx="40" cy="32" r="8" fill="white"/>
+                <path d="M40 40 L40 62 M32 48 L40 40 L44 30 M36 62 L40 62 L44 62" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="44" cy="25" r="2" fill="white" opacity=".6"/>
+                <circle cx="50" cy="20" r="1.5" fill="white" opacity=".4"/>
+            </svg>
+        </div>
+        <div>
+            <div class="proposal-num">Концепт B</div>
+            <h3>Ребёнок тянется вверх</h3>
+            <div class="desc">Стилизованная фигурка ребёнка, тянущегося к зацепкам на стене. Вертикальные линии = стена скалодрома. Энергия, стремление, рост. Самая «детская» концепция.</div>
+            <div class="tags">
+                <span class="tag">Максимально детское</span>
+                <span class="tag">Энергичный</span>
+                <span class="tag">Легко запомнить</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- C: Minimal mountain + hand -->
+    <div class="proposal">
+        <div class="logo-prev cc">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 75 L50 25 L85 75 Z" fill="none" stroke="#b5cc18" stroke-width="3"/>
+                <path d="M50 50 L50 35" stroke="#b5cc18" stroke-width="3" stroke-linecap="round"/>
+                <path d="M46 42 L50 35 L54 42" stroke="#b5cc18" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <circle cx="50" cy="55" r="4" fill="#b5cc18"/>
+            </svg>
+        </div>
+        <div>
+            <div class="proposal-num">Концепт C</div>
+            <h3>Треугольник + фигурка</h3>
+            <div class="desc">Геометрическая гора (треугольник) с человеком внутри, руки вверх. Строгий, лаконичный. Работает на тёмном и светлом фоне. Для тех, кто хочет «серьёзнее».</div>
+            <div class="tags">
+                <span class="tag">Геометрия</span>
+                <span class="tag">Универсальный</span>
+                <span class="tag">Премиальный вид</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- D: Rounded badge -->
+    <div class="proposal">
+        <div class="logo-prev cd">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 70 L50 35 L70 70" stroke="#b5cc18" stroke-width="3" stroke-linecap="round" fill="none"/>
+                <path d="M35 65 L50 42 L65 65" fill="rgba(181,204,24,.1)"/>
+                <circle cx="50" cy="48" r="5" fill="#b5cc18"/>
+                <path d="M50 53 L50 64" stroke="#b5cc18" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M45 58 L50 53 L55 58" stroke="#b5cc18" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <text x="50" y="82" text-anchor="middle" font-family="Nunito,sans-serif" font-size="7" font-weight="800" fill="#b5cc18" letter-spacing="1">ДЕРЖИ ВЫСОТУ</text>
+            </svg>
+        </div>
+        <div>
+            <div class="proposal-num">Концепт D</div>
+            <h3>Значок с текстом</h3>
+            <div class="desc">Гора + фигурка + текст в одном знаке. Формат значка/штампа — отлично для мерча, сертификатов, вышивки на форме. Целостный бренд-блок.</div>
+            <div class="tags">
+                <span class="tag">Бренд-блок</span>
+                <span class="tag">Для мерча</span>
+                <span class="tag">Сертификаты</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- E: Text-only -->
+    <div class="proposal">
+        <div class="logo-prev ce">
+            <div class="mark">ДВ</div>
+            <div class="sub">Держи Высоту</div>
+        </div>
+        <div>
+            <div class="proposal-num">Концепт E</div>
+            <h3>Типографический</h3>
+            <div class="desc">Буквы «ДВ» жирным начертанием + подпись. Максимально чистый, современный. Лайм на тёмном. Если иконка не нужна — это самый трендовый вариант 2025–2026.</div>
+            <div class="tags">
+                <span class="tag">Трендовый</span>
+                <span class="tag">Минимализм</span>
+                <span class="tag">Легко адаптировать</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
