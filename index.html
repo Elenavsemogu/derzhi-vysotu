@@ -30,9 +30,11 @@ nav{
     display:flex;align-items:center;justify-content:space-between;
     padding:0 clamp(16px,4vw,40px);height:64px;
 }
-.n-brand{font-family:'Nunito',sans-serif;font-size:18px;font-weight:900;display:flex;align-items:center;gap:8px}
-.n-brand img{height:32px;width:32px;border-radius:6px}
-.n-brand em{font-style:normal;color:var(--lime)}
+.n-brand{display:flex;align-items:center;gap:0;line-height:1}
+.n-brand-text{display:flex;flex-direction:column;line-height:1.05}
+.n-brand-top{font-family:'Nunito',sans-serif;font-size:16px;font-weight:900;color:var(--dark);letter-spacing:.5px}
+.n-brand-bot{font-family:'Nunito',sans-serif;font-size:16px;font-weight:900;color:var(--lime);letter-spacing:.5px}
+.n-brand-sub{font-family:'Inter',sans-serif;font-size:7px;font-weight:600;color:var(--text3);letter-spacing:3px;text-transform:uppercase;margin-top:2px}
 .n-links{display:flex;gap:24px;align-items:center}
 .n-links a{font-size:13px;font-weight:500;color:var(--text2);transition:color .2s}
 .n-links a:hover{color:var(--dark)}
@@ -269,10 +271,13 @@ footer a:hover{color:var(--lime-l)}
 
 <!-- Nav -->
 <nav>
-    <div class="n-brand">
-        <img src="logo-original.png" alt="ДВ">
-        Держи <em>Высоту</em>
-    </div>
+    <a href="#" class="n-brand">
+        <div class="n-brand-text">
+            <span class="n-brand-top">ДЕРЖИ</span>
+            <span class="n-brand-bot">ВЫСОТУ</span>
+            <span class="n-brand-sub">СКАЛОДРОМ &bull; БАРНАУЛ</span>
+        </div>
+    </a>
     <div class="n-links">
         <a href="#kids">Детям</a>
         <a href="#adults">Взрослым</a>
@@ -298,7 +303,7 @@ footer a:hover{color:var(--lime-l)}
         <a href="#adults" class="split-card split-adults">
             <div class="sc-age">16+</div>
             <h2>Взрослым</h2>
-            <p>Не нужен опыт. Нужны кроссовки и&nbsp;желание попробовать.</p>
+            <p>Не нужен опыт. Только удобная одежда и&nbsp;желание попробовать.</p>
             <div class="sc-btn">Подробнее</div>
         </a>
     </div>
@@ -540,7 +545,7 @@ footer a:hover{color:var(--lime-l)}
 <footer>
     <div class="f-inner">
         <div>
-            <h4>Держи Высоту</h4>
+            <h4><span style="color:var(--white)">ДЕРЖИ</span> <span style="color:var(--lime-l)">ВЫСОТУ</span></h4>
             <p>Скалодром и школа скалолазания<br>для детей и взрослых в Барнауле</p>
             <p style="margin-top:10px">пр-т Социалистический, 23<br>ЦАО «Баламут»</p>
         </div>
