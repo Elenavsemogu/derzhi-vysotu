@@ -6,7 +6,7 @@
 <title>Держи Высоту — предложения по логотипу</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800;900&family=Oswald:wght@500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -16,7 +16,7 @@
     --radius:18px;
 }
 body{font-family:'Montserrat',system-ui,sans-serif;color:var(--graphite);background:var(--cream);-webkit-font-smoothing:antialiased}
-h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
+h1{font-family:'Unbounded',sans-serif;line-height:1.15}
 
 .hero{text-align:center;padding:clamp(50px,8vw,90px) 24px clamp(30px,4vw,44px);max-width:840px;margin:0 auto}
 .hero h1{font-size:clamp(24px,4.2vw,40px);font-weight:800;letter-spacing:-.01em}
@@ -39,9 +39,8 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
 .pane.dark{background:var(--graphite)}
 .pane svg{width:100%;max-width:300px;height:auto}
 
-/* typography inside the logo — two mixed fonts */
-.w1{font-family:'Unbounded','Montserrat',sans-serif;font-weight:800;font-size:40px;letter-spacing:1px}
-.w2{font-family:'Oswald','Montserrat',sans-serif;font-weight:700;font-size:56px}
+/* один шрифт для всего логотипа */
+.lg{font-family:'Unbounded','Montserrat',sans-serif;font-weight:800}
 </style>
 </head>
 <body>
@@ -58,27 +57,25 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
         <div class="card">
             <div class="pane light">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="74" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
-                    <text x="218.5" y="168" text-anchor="end" class="w2" fill="#26292e">ВЫС</text>
-                    <text x="256.5" y="168" text-anchor="start" class="w2" fill="#26292e">ТУ</text>
-                    <g transform="translate(237.5,146)">
-                        <rect x="-12" y="-23" width="24" height="46" rx="11" fill="none" stroke="#84cc16" stroke-width="4.5"/>
-                        <path d="M 5 -12 L 5 15" fill="none" stroke="#84cc16" stroke-width="4.5" stroke-linecap="round"/>
-                        <path d="M 5 -12 L 11 -16" fill="none" stroke="#84cc16" stroke-width="4.5" stroke-linecap="round"/>
-                        <circle cx="5" cy="17.5" r="2.4" fill="#84cc16"/>
+                    <text x="210" y="86" text-anchor="middle" class="lg" font-size="52" fill="#26292e">ДЕРЖИ</text>
+                    <text x="217.9" y="168" text-anchor="end" class="lg" font-size="52" fill="#26292e">ВЫС</text>
+                    <text x="266.9" y="168" text-anchor="start" class="lg" font-size="52" fill="#26292e">ТУ</text>
+                    <g transform="translate(242.4,146)">
+                        <ellipse cx="0" cy="0" rx="17" ry="24" fill="none" stroke="#84cc16" stroke-width="8"/>
+                        <path d="M -6 -22 L 9 -14" stroke="#84cc16" stroke-width="6" stroke-linecap="round"/>
+                        <circle cx="9" cy="-14" r="3.4" fill="#84cc16"/>
                     </g>
                 </svg>
             </div>
             <div class="pane dark">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="74" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
-                    <text x="218.5" y="168" text-anchor="end" class="w2" fill="#ffffff">ВЫС</text>
-                    <text x="256.5" y="168" text-anchor="start" class="w2" fill="#ffffff">ТУ</text>
-                    <g transform="translate(237.5,146)">
-                        <rect x="-12" y="-23" width="24" height="46" rx="11" fill="none" stroke="#a3e635" stroke-width="4.5"/>
-                        <path d="M 5 -12 L 5 15" fill="none" stroke="#a3e635" stroke-width="4.5" stroke-linecap="round"/>
-                        <path d="M 5 -12 L 11 -16" fill="none" stroke="#a3e635" stroke-width="4.5" stroke-linecap="round"/>
-                        <circle cx="5" cy="17.5" r="2.4" fill="#a3e635"/>
+                    <text x="210" y="86" text-anchor="middle" class="lg" font-size="52" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="217.9" y="168" text-anchor="end" class="lg" font-size="52" fill="#ffffff">ВЫС</text>
+                    <text x="266.9" y="168" text-anchor="start" class="lg" font-size="52" fill="#ffffff">ТУ</text>
+                    <g transform="translate(242.4,146)">
+                        <ellipse cx="0" cy="0" rx="17" ry="24" fill="none" stroke="#a3e635" stroke-width="8"/>
+                        <path d="M -6 -22 L 9 -14" stroke="#a3e635" stroke-width="6" stroke-linecap="round"/>
+                        <circle cx="9" cy="-14" r="3.4" fill="#a3e635"/>
                     </g>
                 </svg>
             </div>
@@ -91,25 +88,25 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
         <div class="card">
             <div class="pane light">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="74" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
-                    <text x="218.5" y="168" text-anchor="end" class="w2" fill="#26292e">ВЫС</text>
-                    <text x="256.5" y="168" text-anchor="start" class="w2" fill="#26292e">ТУ</text>
-                    <g transform="translate(237.5,147)">
-                        <path d="M -15 5 C -17 -10 -6 -19 3 -18 C 15 -17 18 -4 15 6 C 13 14 4 16 -5 15 C -12 14 -14 12 -15 5 Z" fill="#84cc16"/>
-                        <ellipse cx="-3" cy="-4" rx="4.2" ry="5" fill="#26292e" opacity=".8"/>
-                        <ellipse cx="7" cy="5" rx="2.6" ry="3" fill="#26292e" opacity=".5"/>
+                    <text x="210" y="86" text-anchor="middle" class="lg" font-size="52" fill="#26292e">ДЕРЖИ</text>
+                    <text x="217.9" y="168" text-anchor="end" class="lg" font-size="52" fill="#26292e">ВЫС</text>
+                    <text x="266.9" y="168" text-anchor="start" class="lg" font-size="52" fill="#26292e">ТУ</text>
+                    <g transform="translate(242.4,147)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#84cc16"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e" opacity=".85"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".55"/>
                     </g>
                 </svg>
             </div>
             <div class="pane dark">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="74" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
-                    <text x="218.5" y="168" text-anchor="end" class="w2" fill="#ffffff">ВЫС</text>
-                    <text x="256.5" y="168" text-anchor="start" class="w2" fill="#ffffff">ТУ</text>
-                    <g transform="translate(237.5,147)">
-                        <path d="M -15 5 C -17 -10 -6 -19 3 -18 C 15 -17 18 -4 15 6 C 13 14 4 16 -5 15 C -12 14 -14 12 -15 5 Z" fill="#a3e635"/>
-                        <ellipse cx="-3" cy="-4" rx="4.2" ry="5" fill="#26292e"/>
-                        <ellipse cx="7" cy="5" rx="2.6" ry="3" fill="#26292e" opacity=".65"/>
+                    <text x="210" y="86" text-anchor="middle" class="lg" font-size="52" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="217.9" y="168" text-anchor="end" class="lg" font-size="52" fill="#ffffff">ВЫС</text>
+                    <text x="266.9" y="168" text-anchor="start" class="lg" font-size="52" fill="#ffffff">ТУ</text>
+                    <g transform="translate(242.4,147)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#a3e635"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".65"/>
                     </g>
                 </svg>
             </div>
@@ -122,26 +119,34 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
         <div class="card">
             <div class="pane light">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(52,112) scale(1.2)">
-                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#84cc16"/>
+                    <g transform="translate(50,112) scale(1.4)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#84cc16"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e" opacity=".85"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".55"/>
                     </g>
-                    <g transform="translate(368,112) scale(-1.2,1.2)">
-                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#84cc16"/>
+                    <g transform="translate(370,112) scale(-1.4,1.4)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#84cc16"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e" opacity=".85"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".55"/>
                     </g>
-                    <text x="210" y="92" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
-                    <text x="210" y="158" text-anchor="middle" class="w2" style="font-size:48px" fill="#84cc16">ВЫСОТУ</text>
+                    <text x="210" y="96" text-anchor="middle" class="lg" font-size="40" fill="#26292e">ДЕРЖИ</text>
+                    <text x="210" y="150" text-anchor="middle" class="lg" font-size="40" fill="#84cc16">ВЫСОТУ</text>
                 </svg>
             </div>
             <div class="pane dark">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(52,112) scale(1.2)">
-                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#a3e635"/>
+                    <g transform="translate(50,112) scale(1.4)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#a3e635"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".65"/>
                     </g>
-                    <g transform="translate(368,112) scale(-1.2,1.2)">
-                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#a3e635"/>
+                    <g transform="translate(370,112) scale(-1.4,1.4)">
+                        <path d="M -16 6 C -18 -12 -7 -22 4 -21 C 18 -20 22 -5 18 7 C 15 17 4 19 -6 18 C -14 17 -15 14 -16 6 Z" fill="#a3e635"/>
+                        <ellipse cx="-3" cy="-5" rx="5" ry="6" fill="#26292e"/>
+                        <ellipse cx="8" cy="6" rx="3" ry="3.6" fill="#26292e" opacity=".65"/>
                     </g>
-                    <text x="210" y="92" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
-                    <text x="210" y="158" text-anchor="middle" class="w2" style="font-size:48px" fill="#a3e635">ВЫСОТУ</text>
+                    <text x="210" y="96" text-anchor="middle" class="lg" font-size="40" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="210" y="150" text-anchor="middle" class="lg" font-size="40" fill="#a3e635">ВЫСОТУ</text>
                 </svg>
             </div>
         </div>
