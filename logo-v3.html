@@ -6,7 +6,7 @@
 <title>Держи Высоту — предложения по логотипу</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800;900&family=Oswald:wght@500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -38,6 +38,11 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
 .pane.light{background:var(--white)}
 .pane.dark{background:var(--graphite)}
 .pane svg{width:100%;max-width:300px;height:auto}
+
+/* typography inside the logo — two mixed fonts */
+.w1{font-family:'Unbounded','Montserrat',sans-serif;font-weight:800;font-size:40px;letter-spacing:1px}
+.w2{font-family:'Oswald','Montserrat',sans-serif;font-weight:700;font-size:62px;letter-spacing:4px}
+.slot{fill:transparent}
 </style>
 </head>
 <body>
@@ -54,26 +59,26 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
         <div class="card">
             <div class="pane light">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="86" text-anchor="middle" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ДЕРЖИ</text>
-                    <text x="196" y="168" text-anchor="end" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ВЫС</text>
-                    <g transform="translate(215,146)">
-                        <ellipse cx="0" cy="0" rx="17" ry="24" fill="none" stroke="#84cc16" stroke-width="8"/>
-                        <path d="M -6 -22 L 9 -14" stroke="#84cc16" stroke-width="6" stroke-linecap="round"/>
-                        <circle cx="9" cy="-14" r="3.4" fill="#84cc16"/>
+                    <text x="210" y="72" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
+                    <text x="210" y="176" text-anchor="middle" class="w2" fill="#26292e"><tspan>ВЫС</tspan><tspan class="slot" data-mark="cbn-l">О</tspan><tspan>ТУ</tspan></text>
+                    <g id="cbn-l" class="mark">
+                        <rect x="-13" y="-24" width="24" height="48" rx="12" fill="none" stroke="#84cc16" stroke-width="6"/>
+                        <path d="M 6 -15 L 6 17" fill="none" stroke="#84cc16" stroke-width="5.5" stroke-linecap="round"/>
+                        <path d="M 6 -15 L 11 -19" fill="none" stroke="#84cc16" stroke-width="5.5" stroke-linecap="round"/>
+                        <circle cx="6" cy="19" r="2.7" fill="#84cc16"/>
                     </g>
-                    <text x="234" y="168" text-anchor="start" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ТУ</text>
                 </svg>
             </div>
             <div class="pane dark">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="86" text-anchor="middle" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ДЕРЖИ</text>
-                    <text x="196" y="168" text-anchor="end" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ВЫС</text>
-                    <g transform="translate(215,146)">
-                        <ellipse cx="0" cy="0" rx="17" ry="24" fill="none" stroke="#a3e635" stroke-width="8"/>
-                        <path d="M -6 -22 L 9 -14" stroke="#a3e635" stroke-width="6" stroke-linecap="round"/>
-                        <circle cx="9" cy="-14" r="3.4" fill="#a3e635"/>
+                    <text x="210" y="72" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="210" y="176" text-anchor="middle" class="w2" fill="#ffffff"><tspan>ВЫС</tspan><tspan class="slot" data-mark="cbn-d">О</tspan><tspan>ТУ</tspan></text>
+                    <g id="cbn-d" class="mark">
+                        <rect x="-13" y="-24" width="24" height="48" rx="12" fill="none" stroke="#a3e635" stroke-width="6"/>
+                        <path d="M 6 -15 L 6 17" fill="none" stroke="#a3e635" stroke-width="5.5" stroke-linecap="round"/>
+                        <path d="M 6 -15 L 11 -19" fill="none" stroke="#a3e635" stroke-width="5.5" stroke-linecap="round"/>
+                        <circle cx="6" cy="19" r="2.7" fill="#a3e635"/>
                     </g>
-                    <text x="234" y="168" text-anchor="start" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ТУ</text>
                 </svg>
             </div>
         </div>
@@ -85,32 +90,86 @@ h1,h2{font-family:'Unbounded',sans-serif;line-height:1.15}
         <div class="card">
             <div class="pane light">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="86" text-anchor="middle" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ДЕРЖИ</text>
-                    <text x="196" y="168" text-anchor="end" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ВЫС</text>
-                    <g transform="translate(215,148)">
+                    <text x="210" y="72" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
+                    <text x="210" y="176" text-anchor="middle" class="w2" fill="#26292e"><tspan>ВЫС</tspan><tspan class="slot" data-mark="hld-l">О</tspan><tspan>ТУ</tspan></text>
+                    <g id="hld-l" class="mark">
                         <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#84cc16"/>
                         <ellipse cx="-4" cy="-6" rx="6" ry="7" fill="#26292e" opacity=".85"/>
                         <ellipse cx="9" cy="6" rx="3.4" ry="4" fill="#26292e" opacity=".55"/>
                     </g>
-                    <text x="236" y="168" text-anchor="start" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#26292e">ТУ</text>
                 </svg>
             </div>
             <div class="pane dark">
                 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
-                    <text x="210" y="86" text-anchor="middle" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ДЕРЖИ</text>
-                    <text x="196" y="168" text-anchor="end" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ВЫС</text>
-                    <g transform="translate(215,148)">
+                    <text x="210" y="72" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="210" y="176" text-anchor="middle" class="w2" fill="#ffffff"><tspan>ВЫС</tspan><tspan class="slot" data-mark="hld-d">О</tspan><tspan>ТУ</tspan></text>
+                    <g id="hld-d" class="mark">
                         <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#a3e635"/>
                         <ellipse cx="-4" cy="-6" rx="6" ry="7" fill="#26292e"/>
                         <ellipse cx="9" cy="6" rx="3.4" ry="4" fill="#26292e" opacity=".7"/>
                     </g>
-                    <text x="236" y="168" text-anchor="start" font-family="Unbounded,Montserrat,sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#ffffff">ТУ</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Вариант 3 · Слово между зацепами -->
+    <div class="variant">
+        <div class="label">Вариант 3</div>
+        <div class="card">
+            <div class="pane light">
+                <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(50,112) scale(1.2)">
+                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#84cc16"/>
+                    </g>
+                    <g transform="translate(370,112) scale(-1.2,1.2)">
+                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#84cc16"/>
+                    </g>
+                    <text x="210" y="92" text-anchor="middle" class="w1" fill="#26292e">ДЕРЖИ</text>
+                    <text x="210" y="158" text-anchor="middle" class="w2" style="font-size:48px" fill="#84cc16">ВЫСОТУ</text>
+                </svg>
+            </div>
+            <div class="pane dark">
+                <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(50,112) scale(1.2)">
+                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#a3e635"/>
+                    </g>
+                    <g transform="translate(370,112) scale(-1.2,1.2)">
+                        <path d="M -20 6 C -22 -14 -8 -25 4 -24 C 20 -22 24 -6 20 8 C 17 18 5 20 -6 19 C -16 18 -19 15 -20 6 Z" fill="#a3e635"/>
+                    </g>
+                    <text x="210" y="92" text-anchor="middle" class="w1" fill="#ffffff">ДЕРЖИ</text>
+                    <text x="210" y="158" text-anchor="middle" class="w2" style="font-size:48px" fill="#a3e635">ВЫСОТУ</text>
                 </svg>
             </div>
         </div>
     </div>
 
 </div>
+
+<script>
+function placeMarks(){
+    document.querySelectorAll('.slot').forEach(function(slot){
+        var svg = slot.ownerSVGElement;
+        var mark = svg.getElementById(slot.getAttribute('data-mark'));
+        if(!mark) return;
+        var sb = slot.getBBox();
+        var mb = mark.getBBox();
+        var cx = sb.x + sb.width/2;
+        var cy = sb.y + sb.height/2;
+        var mcx = mb.x + mb.width/2;
+        var mcy = mb.y + mb.height/2;
+        var scale = (sb.height * 1.02) / mb.height;   // match letter height
+        mark.setAttribute('transform',
+            'translate(' + cx + ' ' + cy + ') scale(' + scale + ') translate(' + (-mcx) + ' ' + (-mcy) + ')');
+    });
+}
+if(document.fonts && document.fonts.ready){
+    document.fonts.ready.then(placeMarks);
+    setTimeout(placeMarks, 400);
+}else{
+    window.addEventListener('load', placeMarks);
+}
+</script>
 
 </body>
 </html>
